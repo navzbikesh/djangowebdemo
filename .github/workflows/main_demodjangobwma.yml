@@ -55,9 +55,9 @@ jobs:
           path: .
           
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v2
+        uses: azure/login@v1
         id: deploy-to-webapp
         with:
           app-name: 'demoDjangobwma'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3FBB91A0FE5B48FDB13EF5F1B8EA5AC4 }}
+          publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
