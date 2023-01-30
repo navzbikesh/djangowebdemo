@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'demoDjangobwma'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_55AAB29F5E114C7A9CD9FD80536C3ECD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7E1D0186615546BE8B7D59C0C43FF363 }}
